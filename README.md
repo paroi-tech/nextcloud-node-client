@@ -1,3 +1,18 @@
+# @paroi/nextcloud-node-client
+
+This is a fork of [nextcloud-node-client](https://github.com/hobigo/nextcloud-node-client), with the following improvements:
+
+* Add ShareType, SharePermission, ShareWith to share API;
+* Fix a bug in stat api when used against a folder path;
+* Add a new method statForFolder;
+* Upgrade dependancies.
+
+We will be happy to mark our package as deprecated when our PR will be merged in the original project.
+
+Below is the original README.
+
+---
+
 # nextcloud-node-client
 
  <img src="https://raw.githubusercontent.com/hobigo/nextcloud-node-client/master/ncnc-logo.png" width="100"  style="max-width:100%;">
